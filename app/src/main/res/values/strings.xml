@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Quiz App!</string>
+    <string name="flag_question">What flag does it belongs to?</string>
 
 </resources>

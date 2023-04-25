@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="welcome_color">#001A4A</color>
     <color name="hit_color">#787878</color>
+    <color name="choice_hint">#D3D3D3</color>
+    <color name="btn_color">#6001BF</color>
 </resources>
