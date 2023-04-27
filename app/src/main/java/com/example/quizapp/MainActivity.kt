@@ -7,8 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.quizapp.databinding.ActivityMainBinding
-
 class MainActivity : AppCompatActivity() {
+
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +22,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Please enter your name",Toast.LENGTH_LONG).show()
             else {
                 val intent = Intent(this,QuestionsActivity::class.java)
+                intent.putExtra(Constants.user_name,etName.text.toString())
                 startActivity(intent)
+                finish()
             }
         }
 

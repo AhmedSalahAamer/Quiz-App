@@ -15,7 +15,7 @@
     android:padding="10dp"
     >
     <TextView
-        android:id="tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="@string/flag_question"
@@ -75,8 +75,8 @@
         android:textColor="@color/choice_hint"
         android:text="Egypt"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@drawable/choice_option"
+
+        android:background="@drawable/defult_option"
         />
     <TextView
         android:id="@+id/tv_option2"
@@ -89,7 +89,7 @@
         android:text="Egypt"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:background="@drawable/choice_option"
+        android:background="@drawable/defult_option"
         />
     <TextView
         android:id="@+id/tv_option3"
@@ -101,8 +101,7 @@
         android:textColor="@color/choice_hint"
         android:text="Egypt"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@drawable/choice_option"
+        android:background="@drawable/defult_option"
         />
     <TextView
         android:id="@+id/tv_option4"
@@ -114,8 +113,7 @@
         android:textColor="@color/choice_hint"
         android:text="Egypt"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@drawable/choice_option"
+        android:background="@drawable/defult_option"
         />
     <Button
         android:id="@+id/btn_submit"
